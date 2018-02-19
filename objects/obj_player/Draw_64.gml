@@ -6,4 +6,3 @@ if(instance_exists(obj_menu)){
 	obj_menu.image_xscale= 2;
 	obj_menu.image_yscale= 2;
 }
-

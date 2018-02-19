@@ -311,6 +311,14 @@
             }
         },
         {
+            "Key": "4bed7728-9794-4fd0-b770-37447f858c95",
+            "Value": {
+                "id": "26808f79-88c1-41d2-a961-9db102aef722",
+                "resourcePath": "scripts\\NineSliceBox\\NineSliceBox.yy",
+                "resourceType": "GMScript"
+            }
+        },
+        {
             "Key": "4c61a553-f4ee-4fe3-a7bb-d2d7c4faa73d",
             "Value": {
                 "id": "c118efe3-51f8-481d-ad24-7b5f5470281e",
@@ -807,6 +815,14 @@
             }
         },
         {
+            "Key": "cf3135f4-d262-47c2-bb8e-b2ab282ddea0",
+            "Value": {
+                "id": "7dc39742-a8e1-404c-b54d-71c0e81aa02b",
+                "resourcePath": "sprites\\spr_box\\spr_box.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "cf82bcfb-75ea-47d5-bbc1-28684ea24a6c",
             "Value": {
                 "id": "85713c4f-2ef3-4b38-a89b-17d1b7ed7e1f",
@@ -1031,7 +1047,8 @@
         "3617c53b-fbad-41c1-b107-7ab92fa8aaca",
         "8c296651-c031-4b1f-bd69-0a6b58852c62",
         "22c57393-d17c-4500-b428-2d67f27d9725",
-        "0e17612b-ba88-4f42-9bd0-710239f0fc33"
+        "0e17612b-ba88-4f42-9bd0-710239f0fc33",
+        "4bed7728-9794-4fd0-b770-37447f858c95"
     ],
     "tutorial": ""
 }

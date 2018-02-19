@@ -1,4 +1,5 @@
 /// @description Create the variables
+DrawSprite=0;
 ladder_off=false;
 can_walljump = "NO";
 last_wall = "NONE";
