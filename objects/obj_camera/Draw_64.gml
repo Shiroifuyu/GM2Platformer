@@ -17,7 +17,7 @@ draw_set_color(c_white);
 draw_text(0, 67, "FPS REAL: " + string(fps_real));
 draw_text(0, 80, "LAST WALL: " + string(obj_player.last_wall));
 if(instance_exists(secret)){
-draw_text(0, 93, "SECRET: " + string(secret.secret_));
+draw_text(0, 93, "MENU: " + string(Menu_));
 }
 if(obj_player.image_xscale > 0){
 	draw_text(0, 2, "IMAGE FACE: RIGHT");
@@ -29,17 +29,17 @@ if(keyboard_check_pressed(ord("M")) && Menu_ == 0){
 	Menu_ = 1;
 	instance_create_depth(x,y,-9999,obj_menu);
 }else if(Menu_ == 1 && keyboard_check_pressed(ord("M"))){
-	Map_ = 0;
+	Menu_ = 0;
 	with(obj_menu){
 		instance_destroy();
 	}
 }
 
-if(keyboard_check_pressed(ord("I")) && Menu_ == 0){
+if(keyboard_check_pressed(ord("I")) && Map_ == 0){
 	Map_ = 1;
 	instance_create_depth(x,y,-999,obj_minimap);
 }
 if(Map_ == 1 && keyboard_check_pressed(ord("P"))){
 	Map_ = 0;
-	surface_free(obj_minimap.map_surface)
+	surface_free(obj_minimap.map_surface);
 }
