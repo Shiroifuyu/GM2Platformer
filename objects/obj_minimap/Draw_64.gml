@@ -11,5 +11,6 @@ map_y = clamp(map_y, 0, map_height-map_size_y);
 draw_surface_part(map_surface,  map_x, map_y, map_size_x, map_size_y, margin, display_get_gui_height()-map_size_y-margin);
 surface_save(map_surface, "lel.png");
 if(keyboard_check_pressed(ord("Q"))){
-instance_destroy();
+	obj_camera.Map_ = 0;
+	instance_destroy();
 }
